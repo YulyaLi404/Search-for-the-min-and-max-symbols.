@@ -13,7 +13,7 @@ public class Search {
 
     public static void main(String[] args) {
 
-        System.out.println("Search for the min and max symbols and etc..\n" + line);
+        System.out.println("Search for the min and max symbols and etc.\n" + line);
 
         char[] symbol = {'a', 'l', 'q', 'd', 't'};
 
@@ -26,6 +26,16 @@ public class Search {
         System.out.println(line + "\n" + "The output of the array in reverse order.");
         System.out.println(line + "\n" + Arrays.toString(ArrayUtils.reverse(symbol)));
     }
-
-
 }
+/* Output:
+
+Search for the min and max symbols and etc.
+-----------------------------------
+Maximum: t
+Minimum: a
+-----------------------------------
+The output of the array in reverse order.
+-----------------------------------
+[t, d, q, l, a]
+
+*/
