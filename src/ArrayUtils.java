@@ -30,7 +30,7 @@ class ArrayUtils {
 
             /*  for (char anArray1 : array1) {
                 if (max < anArray1) {
-                    max = anArray1;
+                max = anArray1;
                 }
             } */
 
@@ -48,10 +48,9 @@ class ArrayUtils {
                 }
             }
 
-            /*      for (char anArray2 : array2) {
-
-                if (min > anArray2) {
-                    min = anArray2;
+            /*   for (char anArray2 : array2) {
+                 if (min > anArray2) {
+                 min = anArray2;
                 }
             } */
 
